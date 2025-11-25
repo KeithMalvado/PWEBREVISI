@@ -23,6 +23,11 @@
             <input type="time" name="jam_mulai" class="form-control" value="{{ old('jam_mulai', $event->jam_mulai) }}" required>
         </div>
 
+        <div class="mb-3"> 
+            <label>Istirahat</label>
+            <input type="time" name="jam_istirahat" class="form-control" valud="{{ old('tanggal', $event->tanggal) }}" required>
+        </div>
+
         <div class="mb-3">
             <label>Jam Selesai</label>
             <input type="time" name="jam_selesai" class="form-control" value="{{ old('jam_selesai', $event->jam_selesai) }}" required>
